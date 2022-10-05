@@ -3,7 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/logo.png'
-import { GiThorHammer } from 'react-icons/gi'
+import Maintence from './components/maintence'
+
+
 
 const Home: NextPage = () => {
   return (
@@ -15,19 +17,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Image
+        <Image 
         src={logo}
         />
 
         <h1>TWS Soluções em Tecnologia</h1>
 
         <h2>Site em Contrução</h2>
-        <GiThorHammer 
-        size={70}
-        />
-
-
-
+        <Maintence />
 
       </main>
 
