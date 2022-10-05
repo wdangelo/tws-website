@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>TWS Soluções em Tecnologia</title>
-        <meta name="description" content="Atendimento Humanizado e personalizado!" />
+        <meta name="description" content="Atendimento Humanizado e Personalizado!" />
         <link rel="icon" href="/tws.ico" />
       </Head>
 
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
         <h1>TWS Soluções em Tecnologia</h1>
 
-        <h2>Site em Contrução</h2>
+        <h2>Site em Construção</h2>
         <Maintence />
 
       </main>
