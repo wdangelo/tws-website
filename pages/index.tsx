@@ -4,12 +4,15 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/logo.png'
 import Maintence from './components/maintence'
+import SocialBar from './components/SocialBar'
 
 
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+
+<SocialBar />
       <Head>
         <title>TWS Soluções em Tecnologia</title>
         <meta name="description" content="Atendimento Humanizado e Personalizado!" />
@@ -17,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+
         <Image 
         src={logo}
         />
