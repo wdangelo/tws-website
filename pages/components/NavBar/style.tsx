@@ -53,3 +53,6 @@ export const NavImg = styled.ul `
     margin: 0;
     padding: 0;
 `
+
+
+export default {NavContainer, NavUl, NavLi, NavImg}

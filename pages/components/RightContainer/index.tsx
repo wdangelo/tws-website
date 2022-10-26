@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const RightContainer = styled.div`
     width: 450px;
     height: 650px;
@@ -16,3 +17,5 @@ export const RightContainer = styled.div`
     -moz-opacity: 0.3;
     -webkit-opacoty: 0.3;
 `
+
+export default RightContainer

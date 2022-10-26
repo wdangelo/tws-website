@@ -57,3 +57,4 @@ export const Footer = styled.footer`
 
 `
 
+export default {ContainerText, ContainerBody, Main, Footer}
