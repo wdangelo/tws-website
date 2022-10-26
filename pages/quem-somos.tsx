@@ -1,4 +1,3 @@
-import { Head } from "next/document";
 import NavBar from "./components/NavBar";
 import SocialBar from "./components/SocialBar";
 
