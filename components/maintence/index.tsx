@@ -1,4 +1,4 @@
-import styles from '../../../styles/Maintence.module.css'
+import styles from '../../styles/Maintence.module.css'
 import { BsGear } from 'react-icons/bs'
 
 

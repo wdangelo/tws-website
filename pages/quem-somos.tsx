@@ -1,7 +1,7 @@
-import NavBar from "./components/NavBar";
-import SocialBar from "./components/SocialBar";
+import NavBar from "../components/NavBar";
+import SocialBar from "../components/SocialBar";
 
-import { ContainerBody, ContainerText, Main, Footer } from "./components/Styleds/Container";
+import { ContainerBody, ContainerText, Main, Footer } from "../components/Styleds/Container";
 
 export default function quemSomos () {
     return (

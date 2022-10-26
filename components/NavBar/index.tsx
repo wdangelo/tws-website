@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { NavContainer, NavUl, NavLi, NavImg } from "./style";
 
-import logo from '../../../public/logo.png'
+import logo from '../../public/logo.png'
 
 export default function NavBar() {
     return(

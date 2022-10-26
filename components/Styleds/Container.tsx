@@ -1,5 +1,8 @@
 import styled from "styled-components"
 
+function ContainerFree(){
+  return <h1></h1>
+}
 export const ContainerText = styled.div`
 
 
@@ -57,4 +60,4 @@ export const Footer = styled.footer`
 
 `
 
-export default {ContainerText, ContainerBody, Main, Footer}
+export default { ContainerFree }
