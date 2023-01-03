@@ -7,7 +7,7 @@ import styles from '../styles/Contato.module.css'
 import { ContainerBody, ContainerText, Main, Footer } from "../components/Styleds/Container";
 
 
-export default function contato () {
+export default function Contato () {
   
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
