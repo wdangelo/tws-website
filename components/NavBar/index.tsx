@@ -26,7 +26,7 @@ export default function NavBar() {
 
                         <NavLi><Link href="/">Home</Link></NavLi>
                         <NavLi><Link href="/quem-somos">Quem somos</Link></NavLi>
-                        <NavLi><Link href="/">Contato</Link></NavLi>
+                        <NavLi><Link href="/contato">Contato</Link></NavLi>
 
                         
                     </NavUl>
