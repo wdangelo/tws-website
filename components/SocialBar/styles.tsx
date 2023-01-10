@@ -19,7 +19,7 @@ export const SocialButton = styled(Nav.Link)`
         height: 70px;
         transition: transform .5s ease;
         &:hover {
-            transform: scale(1.5);
+            transform: scale(1.2);
             transition: transform .3s ease;
             width: 80px;
             height: 80px;

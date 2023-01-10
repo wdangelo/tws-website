@@ -3,3 +3,7 @@
 [ ] Arrumar pagina primcipal bugando no primeiro acesso
 
 [ ] melhorar visual do pagina de contato, fonte e tamanho dos componentes
+
+[ ] melhorar alerta de confirmação de envio de e-mails
+
+[ ] colocar video na pagina home e simplicar a escrita apenas com um slogan

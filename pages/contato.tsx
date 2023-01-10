@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import NavBar from "../components/NavBar";
 import SocialBar from "../components/SocialBar";
-import styles from '../styles/Contato.module.css'
 
-import { ContainerBody, ContainerText, Main, Footer } from "../components/Styleds/Container";
+import StylesContato from '../styles/Contato.module.css'
+
 
 
 export default function Contato () {
@@ -41,44 +41,38 @@ export default function Contato () {
 
     return (
 
-        <>
-        <NavBar />
-        <ContainerBody>
+      <>
+      <NavBar />
+      
+      <div className={StylesContato.container}>
+      <SocialBar />
+        <main className={StylesContato.main}>
         
-            <SocialBar />
-          <Main>
-  
-
-            <ContainerText>
-            
-                <div className={styles.container}>
-                <h1 className={styles.title} >Contato</h1>
-                  <form className={styles.form} onSubmit={sendEmail} >
+        <div className={StylesContato.body}>
+                <h1 className={StylesContato.title} >Contato</h1>
+                  <form className={StylesContato.form} onSubmit={sendEmail} >
                     
-                    <input type="text" className={styles.input} placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)} value={name}/>
-                    <input type="email"  className={styles.input} placeholder="Digite seu e-mail" onChange={(e) => setEmail(e.target.value)} value={email}/>
-                    <input type="tel" className={styles.input} placeholder="Telefone para contato" onChange={(e) => setPhone(e.target.value)} value={phone}/>
-                    <textarea className={styles.textarea} placeholder="Digite sua mensagem..."  onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
+                    <input type="text" className={StylesContato.input} placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)} value={name}/>
+                    <input type="email"  className={StylesContato.input} placeholder="Digite seu e-mail" onChange={(e) => setEmail(e.target.value)} value={email}/>
+                    <input type="tel" className={StylesContato.input} placeholder="Telefone para contato" onChange={(e) => setPhone(e.target.value)} value={phone}/>
+                    <textarea className={StylesContato.textarea} placeholder="Digite sua mensagem..."  onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
 
-                    <input type="submit" className={styles.button} value="Enviar" />
+                    <input type="submit" className={StylesContato.button} value="Enviar" />
                     
                   </form>
-                </div>
-                
+          </div>
 
-
-            </ContainerText>
-    
-          </Main>
-    
-    
-          <Footer>
-          <p> Oferecemos atendimento humanizado e personalizado.</p>
+        </main>
+  
+  
+        <footer className={StylesContato.footer}>
           
-      
-          </Footer>
-        </ContainerBody>
-        </>
+        <p> Oferecemos atendimento humanizado e personalizado.</p>
+        
+        
+        </footer>
+      </div>
+      </>
 
 
     )

@@ -5,7 +5,8 @@ function ContainerFree(){
 }
 export const ContainerText = styled.div`
 
-
+    height: 80%;
+    width: 45%;
     padding: 6rem 0;
     margin-left: 32rem;
     margin-right: 32rem;
