@@ -61,4 +61,4 @@ export const Footer = styled.footer`
 
 `
 
-export default { ContainerFree }
+export default ContainerFree 
