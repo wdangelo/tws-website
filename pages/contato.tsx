@@ -16,7 +16,7 @@ export default function Contato () {
 
   function sendEmail(e: React.FocusEvent<HTMLFormElement>) {
     e.preventDefault()
-    const serviceId = 'service_gd8wge6'
+    const serviceId = 'service_zx87o1y'
     const templateId = 'template_f5jofwg'
     const publicKey = 'PtChbmSYuIYyYQOO2'
     const templateParams = { 
