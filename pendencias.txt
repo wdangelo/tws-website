@@ -1,0 +1,5 @@
+[ ] segregar função de envio de e-mails
+
+[ ] Arrumar pagina primcipal bugando no primeiro acesso
+
+[ ] melhorar visual do pagina de contato, fonte e tamanho dos componentes
