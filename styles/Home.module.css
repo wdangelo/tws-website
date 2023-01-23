@@ -1,10 +1,13 @@
 .container {
-  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
 
 .main {
   min-height: 80vh;
-  padding: 4rem 0;
+  min-width: 100vh;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -12,14 +15,7 @@
   align-items: center;
 }
 
-.frameBody {
-  border-radius: 50px;
-  height: 90%;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 
 .indexText {
   border-radius: 8px;
@@ -34,10 +30,11 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }
 
 .footer a {
@@ -45,8 +42,13 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  
 }
 
+.footer p {
+  font-size: 14px;
+  font-weight: bold;
+}
 
 
 @media (prefers-color-scheme: dark) {

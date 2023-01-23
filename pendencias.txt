@@ -1,9 +1,11 @@
 [ ] segregar função de envio de e-mails
 
-[ ] Arrumar pagina primcipal bugando no primeiro acesso
+[ x ] Arrumar pagina primcipal bugando no primeiro acesso (problema esta na versel)
 
 [ ] melhorar visual do pagina de contato, fonte e tamanho dos componentes
 
 [ ] melhorar alerta de confirmação de envio de e-mails
 
 [ ] colocar video na pagina home e simplicar a escrita apenas com um slogan
+
+[]  fazer o video pegar o maximo de largura da tela
