@@ -68,6 +68,7 @@ export default function Contact () {
                         className={styles.buttonWhatsApp}
                         width={60}
                         height={60}
+                        alt='Imagem WhatsApp'
                         />
                     </Link>
 

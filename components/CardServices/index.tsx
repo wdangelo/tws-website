@@ -21,6 +21,7 @@ export default function CardServices() {
                             src={ImgSuport}
                             width={100}
                             height={100}
+                            alt='Imagem Suport'
                             />
                         <h1>Suporte em T.I.</h1>
                         <p>Terceirização do suporte N1 e N2, atendimento e soluções de problemas remotamente.</p>
@@ -31,6 +32,7 @@ export default function CardServices() {
                             src={ImgWebsite}
                             width={100}
                             height={100}
+                            alt='Imagem WebSite'
                             />
                         <h1>Criação de Website</h1>
                         <p>criação de paginas web personalizadas para apresentação do seu negócio.</p>
@@ -41,6 +43,7 @@ export default function CardServices() {
                             src={ImgPentest}
                             width={100}
                             height={100}
+                            alt='Imagem Pentst'
                             />
                         <h1>Pentest Personalizado</h1>
                         <p>Campanha de conscientização, testes de phishing e vulnerabilidade da TI.</p>
@@ -55,6 +58,7 @@ export default function CardServices() {
                             src={ImgInfra}
                             width={100}
                             height={100}
+                            alt='Imagem Infra'
                             />
                         <h1>Infraestrutura de T.I.</h1>
                         <p>Estrutura, cabeamento e toda configuração do ambiente de rede.</p>
@@ -65,6 +69,7 @@ export default function CardServices() {
                             src={ImgConsult}
                             width={100}
                             height={100}
+                            alt='Imagem consultoria'
                             />
                         <h1>Consultoria em T.I.</h1>
                         <p>Levantamento e auxilio das necessidades no ambiente de TI.</p>
@@ -75,6 +80,7 @@ export default function CardServices() {
                             src={ImgFirewall}
                             width={100}
                             height={100}
+                            alt='Imagem Firewall'
                             />
                         <h1>Servidores e Firewalls</h1>
                         <p>Soluções em servidores, Firewall, e monitoramento do ambiente.</p>
