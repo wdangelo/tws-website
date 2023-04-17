@@ -1,0 +1,90 @@
+.CardHistory {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardHistory::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 750px;
+    background-image: url("../public/circuitblack.png");
+    background-attachment: fixed;
+    opacity: 0.2;
+}
+
+.quadro {
+    
+    width: 550px;
+    height: 500px;
+}
+
+.quadro::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    max-width: 550px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4; 
+    z-index: 1;
+}
+
+
+
+.quadroDescription {
+    margin-left: 50px;
+    margin-top: 40px;
+    color: #10214d;
+    font-size: 20px;
+    font-weight: 600;
+    width: 550px;
+    height: 500px;
+}
+
+
+
+
+
+@media (max-width: 1665px) {
+
+    .quadro {
+    
+        width: 350px;
+        height: 300px;
+    }
+
+    .quadro::before {
+        content: "";
+        display: flex;
+        position: absolute;
+
+        width: 350px;
+        height: 318px;
+        background-color: #000;
+        opacity: 0.4; 
+        z-index: 1;
+    }
+
+    .quadroDescription {
+        margin-left: 30px;
+        margin-top: 40px;
+        color: #10214d;
+        font-size: 13px;
+        font-weight: 500;
+        width: 350px;
+        height: 300px;
+    }
+
+    .logoBarra {
+        width: 110px;
+        height: 50px;
+    }
+
+}

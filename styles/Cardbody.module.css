@@ -1,0 +1,68 @@
+.CardBody {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    background-image: url("../public/imageBody1835.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imgBody {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CardBody::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7; 
+    z-index: 1;
+
+}
+
+.description {
+    text-align: right;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+
+    padding: 20px;
+    border-radius: 3px;
+    z-index: 2;
+    margin-right: 50px;
+}
+
+.description h1 {
+
+    color:#69ddff;
+}
+
+
+@media (max-width: 1450px) {
+    .description {
+        text-align: start;
+        width: 100%;
+        font-size: 16px;
+        top: 100px;
+        left: 150px;
+    
+    }
+
+    .CardBody {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+
+    }
+}
+

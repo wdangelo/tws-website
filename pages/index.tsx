@@ -1,11 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import SocialBar from '../components/SocialBar'
 import NavBar from '../components/NavBar'
-import Image from 'next/image'
-import CardMovie from '../components/CardMovie'
 
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CardBody from '../components/CardBody/CardBody'
+import CardHistory from '../components/CardHistory';
+import CardServices from '../components/CardServices';
 
 const Home: NextPage = () => {
   return (
@@ -23,15 +25,18 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
 
-        <CardMovie />
+        <CardBody />
 
-
+        
       </main>
 
-      
+      <div>
+      <CardHistory />
+      <CardServices />
+      </div>
       <footer className={styles.footer}>
         
-      <p>Feito por TWS©</p>
+      <p>TWS Tecnologia ©  Criado por 2023 TWS soluções em Tecnologia</p>
       
       
       </footer>
