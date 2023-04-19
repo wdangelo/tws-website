@@ -1,0 +1,29 @@
+.main {
+    width: 100%;
+    height: 800px;
+    border: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    color: #10214d;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.main::before {    content: "";
+    border: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../public/circuitblack.png");
+    background-attachment: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
